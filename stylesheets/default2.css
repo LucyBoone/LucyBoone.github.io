@@ -1,0 +1,39 @@
+body {
+  border: 2px solid black;
+  background-color: #CAC8FF;
+  font-family: Droid-Serif, Serif;
+
+}
+
+h1 {
+  text-align:center;
+  font-size: 3em;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+#div1 {
+  position: absolute;
+  display:inline;
+  margin-left:25em
+}
+
+#div2 {
+  display: inline;
+  position: absolute;
+  margin-left: 40em
+}
+
+#div3 {
+  margin-left:15em;
+}
+
+ul {
+  margin-top: 50px;
+  margin-bottom: 500px;
+  text-align: center;
+}
+
