@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+  <title>Lucy's Very Technical Blog</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="your-stylesheet-link-here.css">
+</head>
+
+<main>
+  <h1>Don't Hash My Array, Man</h1>
+  <h4>8/17/15</h4>
+
+  <section>
+    <p>
+      Arrays & hashes! Both super useful tools, and pretty similar in their set up: both are indexed collections of information, using a key/value relationship. You can store any kind of information, and can store multiple items.
+    </p>
+    <p> The chief difference between the arrays and hashes is that arrays are automatically assigned an integer key upon creation - which starts at 0:
+      <pre><code>
+      fruit = ["apple", "pear", "nectarine"]
+      fruit[1]             #> pear
+    </code></pre>
+     Since pear is the second item in the list, it's key is 1. Apple is 0, and nectarine is 2. Arrays, like Drake, start from the bottom.
+    </p>
+    <p>
+      Hashes, on the other hand, allow you to set your own key. This can be useful in situations where you want to know a certain piece of information from a long list, but don't want to memorize the fact that it's in the 12th position in your array. If you have two pieces of information with a meaningful relationship already, like words & abbreviations, or first and last names, you can use a hash to recall that data:
+      <pre><code>
+        names = {"Jett" => "Joan", "Mercury"=>"Freddy", "Nelson"=>"Prince Rogers"}
+        names{"Freddy"}        #>"Mercury"
+      </code></pre>
+      It's important to remember that key values must be unique in hashes, so if we say, wanted to add my old boss whose last name is also Nelson to this list, we'd have a problem: the hash would have to pick between her & Freddy. Values, however, can be assigned to multiples keys, so Joan Jett & Joan Collins are both welcome.
+    </p>
+    <p> It's also possible to add information to arrays & hashes once they've been created. You can add to arrays using .push("bananas") and to hashes using .store("Armstrong", "Lewis"). Arrays and hashes can further be combined with other arrays and hashes (but not with each other) to greater even bigger lists of information.
+    </p>
+    <p> And that's all she wrote today! I hope that was helpful!
+    </p>
+  </section>
+</main>
