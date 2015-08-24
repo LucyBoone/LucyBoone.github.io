@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+  <title>Lucy's Very Technical Blog</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="stylesheet3.css">
+</head>
+
+<main>
+  <h1>What's Up With #Map?</h1>
+  <h4>8/23/15</h4>
+
+  <section>
+    <p>
+      #Map, & #collect! They  do... well, exactly the same thing. They map through an array, performing a function of your choice on every element, and then returning a block filled with all the new results. Map is more conventional than collect, so that's what we're going to talk about.
+    </p>
+    <p> #Map is good for altering data by expanding on it: ie, doing math. If we need to add to, subtract from, multiply, or divide numbers in an array and we know we want to do it across the board, #map allows us to do this all at once:
+    <pre><code>
+      test_array = [2, 4, 6, 8, 10]
+      test_array.map{|value| value*2 }
+      => [4, 8, 12, 16, 20]
+     </code></pre>
+     It looks a little bit like the .each / do command that we can call on a method, but used in the context of arrays (and also hashes!) Since we'll often need to modify data sets all at once, it's a useful, powerful tool.
+   </p>
+    <p> And that's all she wrote today! I hope that was helpful!
+    </p>
+  </section>
+</main>
