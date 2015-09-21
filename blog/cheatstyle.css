@@ -1,0 +1,32 @@
+header {
+  background-color:#BECBE9;
+  font-family: Arial, Sans-Serif;
+  font-size: 20;
+  color: #000000;
+}
+
+p {
+  background-color: #ECF9EE;
+  font-family: Arial, Sans-Serif;
+  font-size: 12;
+  color: #000000;
+}
+
+.column-1 {
+  border: solid black;
+  background-color: #ECF9EE;
+}
+
+.column-2 {
+ border: solid black;
+ background-color: #ECF9EE;
+}
+
+footer: {
+ border: solid black;
+ background-color: #ECF9EE;
+ font-family: Arial, Sans-Serif;
+ font-size: 10;
+ color: #000000;
+}
+
