@@ -1,0 +1,23 @@
+body {
+  background-color: whitesmoke;
+  color: #0B153C;
+}
+
+p {
+  font-family: Arial, Sans-Serif;
+  font-size: 12;
+}
+
+header {
+  border: solid black;
+}
+
+h1 {
+  font-family: Bitter, Sans-Serif;
+  font-size: 20;
+}
+
+h2 {
+  font-family: Droid Serif, Sans-Serif;
+  font-size: 14;
+}
