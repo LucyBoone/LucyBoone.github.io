@@ -41,6 +41,7 @@ h2 {
 }
 
 ul {
+  list-style-type: none;
   margin-top: 50px;
   margin-bottom: 500px;
   text-align: center;
