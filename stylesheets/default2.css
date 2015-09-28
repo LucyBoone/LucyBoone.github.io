@@ -14,10 +14,34 @@ header {
 
 h1 {
   font-family: Bitter, Sans-Serif;
-  font-size: 20;
+  text-align:center;
+  font-size: 3em;
 }
 
 h2 {
   font-family: Droid Serif, Sans-Serif;
-  font-size: 14;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+#div1 {
+  position: absolute;
+  display:inline;
+  margin-left:25em
+}
+
+#div2 {
+  display: inline;
+  position: absolute;
+  margin-left: 40em
+}
+
+#div3 {
+  margin-left:15em;
+}
+
+ul {
+  margin-top: 50px;
+  margin-bottom: 500px;
+  text-align: center;
 }
