@@ -44,19 +44,3 @@ h1 {
 a {
   text-decoration: none;
 }
-
-
-footer {
-  position: fixed;
-}
-
-.footer {
-  text-align: center;
-  margin: 0;
-  padding: 0;
-}
-
-body > div > footer > div > a > img {
-  display: inline-block;
-  vertical-align: middle;
-}
