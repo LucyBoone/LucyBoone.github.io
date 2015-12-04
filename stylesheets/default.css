@@ -1,28 +1,62 @@
 body {
-  background-color: #B5B4C4;
+  background-image: url("../images/silk.jpg");
   font-family: Bitter, Serif;
+  color: whitesmoke;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-  align-content: center;
+  width: 100%;
+  margin: 0 auto;
 }
 
 h1 {
   font-weight: bolder;
   text-align: center;
 }
-.content {
+#content {
   align-content: center;
   text-align: center;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
   margin-top: 5px;
   margin-bottom: 5px;
   padding-top: 7px;
   padding-bottom: 7px;
-  clear: right;
 }
 
  .button {
   float: right;
+  background: whitesmoke;
+  border-radius: 2px;
+  font-family: Bitter;
+  margin: 5px;
+}
+
+#sidebar {
+  text-align: center;
+}
+
+#sidebar ul {
+  list-style: none;
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+footer {
+  position: fixed;
+}
+
+.footer {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+body > div > footer > div > a > img {
+  display: inline-block;
+  vertical-align: middle;
 }
