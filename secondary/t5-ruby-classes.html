@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+  <title>Lucy's Very Technical Blog</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="stylesheet3.css">
+</head>
+
+<main>
+  <h1>Classy Joint</h1>
+  <h4>8/30/15</h4>
+
+  <section>
+
+    <p> Classes! Who needs 'em? Well, probably you at some point! Classes allow us to model objects that have common traits, but non-standard values. Put more simply: things that are similar, but not the same. For instance, cars will all have the traits year, color, make, model, number of doors, number of passengers... but my green 1999 Jeep will fill those differently than my father-in-law's 2005 yellow Corvette. Similar, but different. Classes allow us to intialize the common traits as instance variables, and supply the specifics as arguments for each new object that is called on the class. Here's how that might look: </p>
+ <pre><code>
+    #name of your class. Should be capitalized & related to the object you're modeling.
+ class Cats
+     def initialize(name, size, sex, temperament)
+       @name = name
+       @size = size
+       @sex = sex
+       @temperament = temperament
+     end
+
+      #the intialize method isn't necessary for the class to function, ie if you don't do it your class will still work, but it's a good first step.
+       #the @ simple tells us these are instance, rather than local variables. that's why they work across methods...
+
+    def cat_profile #...like this!
+      puts "#{@name} is a #{@size} #{@sex} cat. #{@name} is very #{@temperament}."
+    end
+ end
+
+big_one = Cats.new('Gator', 'big', 'boy', 'mellow') # we create a new object & new instance of class, and apply arguments.
+big_one.cat_profile #next we call our method.
+
+baby_girl = Cats.new('Marcie', 'small', 'girl', 'bad')
+baby_girl.cat_profile
+# we can do this as many times as we want for a class!
+</code></pre>
+<p>Here's a look at the output:</p>
+<pre><code>
+Gator is a big boy cat. Gator is very mellow.
+Marcie is a small girl cat. Marcie is very bad.
+</code></pre>
+    <p> And that's all she wrote today! I hope that was helpful!
+    </p>
+  </section>
+</main>

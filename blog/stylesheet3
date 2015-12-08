@@ -1,0 +1,7 @@
+p {
+  font-family: Arial, Sans-Serif;
+  font-size: 12
+  color: #000000;
+}
+
+p

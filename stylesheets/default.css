@@ -1,49 +1,65 @@
 body {
-  background-color: #B5B4C4;
+  font-family: Bitter, Serif;
+  color: whitesmoke;
+  margin: 0;
+  padding: 0;
 }
 
-h1  {
-  font-weight: bolder;
-  font-family: Bitter, Serif;
-  text-align: center;
-  border: 5px solid black;
+.container {
+  width: 100%;
+  margin: 0 auto;
 }
-p {
-  font-family: Bitter, Serif;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
+
+h1 {
+  font-weight: bolder;
+  text-align: center;
+}
+.content {
+  align-content: center;
+  text-align: center;
   margin-top: 5px;
   margin-bottom: 5px;
   padding-top: 7px;
   padding-bottom: 7px;
 }
 
-img {
-  zoom: 10%;
+ .button {
+  float: right;
+  background: whitesmoke;
+  border-radius: 2px;
+  font-family: Bitter;
+  margin: 5px;
 }
 
-#first {
-  position: relative;
-  text-align: right;
-bottom: 350px;
-margin-right:350px;
+.nav > button > a {
+  color: #0F1112;
 }
-#second {
-  position: relative;
-  text-align: right;
-bottom: 369px;
-margin-right:275px;
+
+.sidebar {
+  text-align: center;
 }
-#third {
-  position: relative;
-  text-align: right;
-bottom: 388px;
-margin-right:2px;
+
+.sidebar ul {
+  list-style: none;
+  display: inline;
 }
-#fourth {
-  position: relative;
-  text-align: right;
-bottom: 406px;
-margin-right:125px;
-margin-left: 10px;
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: whitesmoke;
+}
+
+a:visited {
+  color: #7F6B00;
+}
+
+a:hover {
+  color: #A5974C;
+}
+
+a:active {
+  color: #3f3500;
 }
