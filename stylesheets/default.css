@@ -1,5 +1,4 @@
 body {
-  background-image: url("../images/holy.jpg");
   font-family: Bitter, Serif;
   color: whitesmoke;
   margin: 0;
@@ -15,7 +14,7 @@ h1 {
   font-weight: bolder;
   text-align: center;
 }
-#content {
+.content {
   align-content: center;
   text-align: center;
   margin-top: 5px;
@@ -32,15 +31,15 @@ h1 {
   margin: 5px;
 }
 
-#nav > button > a {
+.nav > button > a {
   color: #0F1112;
 }
 
-#sidebar {
+.sidebar {
   text-align: center;
 }
 
-#sidebar ul {
+.sidebar ul {
   list-style: none;
   display: inline;
 }
